@@ -73,7 +73,7 @@ module.exports = generators.Base.extend({
       		this.fs.copy(
 		        this.templatePath('src'),
 		        this.destinationPath('src')
-		      );
+		     );
 		},
 		babel: function(){
 			this.fs.copy(
